@@ -63,7 +63,7 @@ nav {
     /* flex: 1 20%; */
 }
 
-.about-text>p {
+.about-text>p, ul {
     width: 65%;
 }
 
