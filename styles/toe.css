@@ -1,0 +1,7 @@
+figure {
+    width: 95%;
+}
+figure > img {
+    max-width: 40%;
+    height: auto;
+}
