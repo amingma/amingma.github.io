@@ -114,3 +114,17 @@ hr {
 ul {
     margin-top: 0;
 }
+
+a {
+    display: flex;
+    flex-direction: column;
+}
+
+a>img {
+    max-width: 100%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    object-fit:contain;
+    justify-self: center;
+}
