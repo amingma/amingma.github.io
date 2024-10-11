@@ -7,9 +7,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/proj.css">
 </head>
 <body>
-    Hello world!
+    <section class="header">
+        <a href="../index.html" class="logo-link">
+            <span class="name">Nathan Ma</span>
+        </a>
+        <nav>
+            <div class="header-one"><a href="../index.html#work" class="work-link">Projects</a></div>
+            <div class="header-two"><a href="../index.html#updates" class="updates-link">Misc</a></div>
+            <div class="header-three"><a href="../index.html#blog" class="blog-link">Blog</a></div>
+            <div class="header-four"><a href="../index.html#contact" class="contact-link">Contact</a></div>
+        </nav>
+    </section>
+
+    <hr />
+
+    <section class="content">
+        <h1>Ultimate Tic Tac Toe</h1>
+        <a href="https://github.com/amingma/magical-cat"><span><img src="../images/github-mark.png" alt="github logo" class="gitlogo"> Github Repository</span></a>
+        <figure><img src="../images_lol/lol_cover.png" alt="MS Paint Cover"></figure>
+        <h3>About the Project</h3>
+        <p>
+            This program allows you to play ultimate tic tac toe either against a 
+            friend or against the computer. Each turn, all of your possible moves are 
+            highlighted. Additionally, the computer uses the <a href="https://www.youtube.com/watch?v=l-hh51ncgDI">alpha beta pruning algorithm</a> 
+            to determine its moves. However, the reward function is not super well defined, 
+            so the average player should be able to beat the computer. 
+        </p>
+        <p>
+            I built this project because I was learning the basics of front end languages 
+            and wanted to apply them to make something fun. I originally was going to build 
+            vanilla tic tac toe, but I pivoted to the ultimate version because it was a 
+            lot more interesting to think about and implement.
+        </p>
+        <h3>Technologies Used</h3>
+        <ul>
+            <li><b>HTML/CSS: </b>Add initial elements and style to page</li>
+            <li><b>JavaScript: </b>Generate 9x9 game board, add responsiveness to gameplay, provide CPU logic</li>
+        </ul>
+        <h3>Screenshots</h3>
+        <img src="../images_ult/rules.png" alt="rules" class="screenshot">
+        <img src="../images_ult/gameplay.png" alt="gameplay" class="screenshot">
+        <img src="../images_ult/results.png" alt="results" class="screenshot">
+    </section>
 </body>
 </html>
