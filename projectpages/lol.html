@@ -25,32 +25,32 @@
     <hr />
 
     <section class="content">
-        <h1>Ultimate Tic Tac Toe</h1>
+        <h1>LOL Tracker</h1>
         <a href="https://github.com/amingma/magical-cat"><span><img src="../images/github-mark.png" alt="github logo" class="gitlogo"> Github Repository</span></a>
-        <figure><img src="../images_lol/lol_cover.png" alt="MS Paint Cover"></figure>
+        <figure><img src="../images_lol/lol_cover.png" alt="Another MS Paint Cover"></figure>
         <h3>About the Project</h3>
         <p>
-            This program allows you to play ultimate tic tac toe either against a 
-            friend or against the computer. Each turn, all of your possible moves are 
-            highlighted. Additionally, the computer uses the <a href="https://www.youtube.com/watch?v=l-hh51ncgDI">alpha beta pruning algorithm</a> 
-            to determine its moves. However, the reward function is not super well defined, 
-            so the average player should be able to beat the computer. 
+            This application allows you to track you and your friends' progress through the current 
+            League of Legends ranked season. You have the option to add friends into the table, delete them, 
+            and refresh their information. Additionally, you can click into a friend's profile to view their 
+            most recently played matches and champions.
         </p>
         <p>
-            I built this project because I was learning the basics of front end languages 
-            and wanted to apply them to make something fun. I originally was going to build 
-            vanilla tic tac toe, but I pivoted to the ultimate version because it was a 
-            lot more interesting to think about and implement.
+            I built this project because I was learning about React and RESTful APIs, and wanted to utilize my 
+            knowledge in the two areas to create a simpler full stack application. I occasionally dabble in League, and, 
+            fortunately, the parent company Riot has a whole API for developers to use. As a result, 
+            the idea came pretty naturally to create an app that integrated the Riot API to display various 
+            information to the user.
         </p>
         <h3>Technologies Used</h3>
         <ul>
-            <li><b>HTML/CSS: </b>Add initial elements and style to page</li>
-            <li><b>JavaScript: </b>Generate 9x9 game board, add responsiveness to gameplay, provide CPU logic</li>
+            <li><b>React: </b>Add elements to page, respond to user input accordingly, fetch data from backend</li>
+            <li><b>Flask: </b>Provide endpoints to retrieve information from Riot API</li>
+            <li><b>CSS: </b>Add minimal styling</li>
         </ul>
         <h3>Screenshots</h3>
-        <img src="../images_ult/rules.png" alt="rules" class="screenshot">
-        <img src="../images_ult/gameplay.png" alt="gameplay" class="screenshot">
-        <img src="../images_ult/results.png" alt="results" class="screenshot">
+        <img src="../images_lol/table.png" alt="table" class="screenshot">
+        <img src="../images_lol/matchhist.png" alt="matchhist" class="screenshot">
     </section>
 </body>
 </html>
