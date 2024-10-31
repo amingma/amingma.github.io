@@ -128,3 +128,16 @@ a>img {
     object-fit:contain;
     justify-self: center;
 }
+
+.blog > a {
+    width: 50%;
+}
+
+.blog > a > h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.blog > a > span {
+    margin-bottom: 0.5em;
+}
