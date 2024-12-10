@@ -135,9 +135,9 @@ a>img {
 
 .blog > a > h4 {
     margin-top: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
 }
 
 .blog > a > span {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
